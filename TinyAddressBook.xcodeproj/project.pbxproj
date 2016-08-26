@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65E74DC51D6B857C00D7F1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E74DC41D6B857C00D7F1AA /* main.m */; };
+		65E74DCD1D6B867700D7F1AA /* contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E74DCC1D6B867700D7F1AA /* contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		65E74DC11D6B857C00D7F1AA /* TinyAddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinyAddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E74DC41D6B857C00D7F1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65E74DCB1D6B867700D7F1AA /* contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contact.h; sourceTree = "<group>"; };
+		65E74DCC1D6B867700D7F1AA /* contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				65E74DC41D6B857C00D7F1AA /* main.m */,
+				65E74DCB1D6B867700D7F1AA /* contact.h */,
+				65E74DCC1D6B867700D7F1AA /* contact.m */,
 			);
 			path = TinyAddressBook;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E74DCD1D6B867700D7F1AA /* contact.m in Sources */,
 				65E74DC51D6B857C00D7F1AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
